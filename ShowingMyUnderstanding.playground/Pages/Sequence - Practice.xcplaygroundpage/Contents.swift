@@ -53,7 +53,7 @@ canvas.fillColor = Color.init(hue: 240, saturation: 80 , brightness: 90, alpha: 
 canvas.drawEllipse(centreX: 225, centreY: 200, width: 100, height: 100)
 
 //Red Balloon
-canvas.fillColor = Color.init(hue: 0, saturation: 70, brightness: 100, alpha: 80)
+canvas.fillColor = Color.init(hue: 0, saturation: 70, brightness: 100, alpha: 100)
 canvas.drawEllipse(centreX: 175, centreY: 200, width: 100, height: 100)
 
 
@@ -69,6 +69,26 @@ canvas.drawEllipse(centreX: 125, centreY: 200, width: 100, height: 100)
 canvas.fillColor = Color(hue: 240, saturation: 80, brightness: 90, alpha: 50)
 canvas.drawEllipse(centreX: 225, centreY: 200, width: 100, height: 100)
 
+//green string
+
+canvas.fillColor = Color(hue: 120, saturation: 80, brightness: 90, alpha: 100)
+
+canvas.drawRectangle(bottomLeftX: 75, bottomLeftY: 20, width: 5, height: 150)
+
+// YELLOW LINE
+canvas.fillColor = Color(hue: 60, saturation: 80, brightness: 90, alpha: 100)
+canvas.drawRectangle(bottomLeftX: 125, bottomLeftY: 20, width: 5, height: 150)
+
+//red string
+canvas.fillColor = Color.init (hue: 0, saturation: 70, brightness: 100, alpha: 100)
+
+canvas.drawRectangle(bottomLeftX: 175, bottomLeftY: 20, width: 5, height: 150)
+
+
+//blue string
+canvas.fillColor = Color(hue: 240, saturation: 80, brightness: 90, alpha: 100)
+
+canvas.drawRectangle(bottomLeftX: 225, bottomLeftY: 20, width: 5, height: 150)
 
 /*:
  ## Template code
